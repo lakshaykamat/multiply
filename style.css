@@ -98,10 +98,8 @@
   }
 }
 
-.main-div{
-  /* height: 100vw; */
-}
 main {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   background-color: rgb(169, 169, 253);
   display: flex;
   flex-direction: column;
@@ -119,7 +117,7 @@ main {
 background-color: black;
 color: white;
 padding: .8rem;
-margin: 1rem 1rem;
+margin: 0rem 1rem;
 border-radius: 1px;
 }
 .btn:hover{
@@ -142,7 +140,7 @@ border-radius: 1px;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 4rem;
+  height: 3rem;
   background-color:  rgb(5, 73, 175);
   /* position: relative; */
   /* bottom: 10px; */
