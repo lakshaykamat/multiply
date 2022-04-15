@@ -106,12 +106,12 @@ main {
   margin: 5rem auto;
   height:max-content;
   width: max-content;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 .input{
     margin: 1rem;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .btn{
 background-color: black;
