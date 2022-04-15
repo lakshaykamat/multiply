@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table | By Lakshay Kamat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand-title">X Table</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+  <main>
+    <input id="number"class = "input" placeholder="Enter a Number" /><br>
+    <button onclick="multiply()" class="btn">Print Multiplication table</button>
+    <div class="result-div">
+      <div id="result"class=sol></div>
+    </div>
+  </main>
+
+
+
+            <footer>
+        <div class="foot-div-1">
+        <span class="foot-txt">&#169;2022 | Created by Lakshay Kamat &#128151;</span>
+        </div>
+        <div class="foot-div-2"></div>
+    </footer>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+navbarLinks.classList.toggle('active')
+})
+    </script>
+<!-- Enter Number: <input type="number" id="number">
+<button onclick="multiply()">Click</button>
+<div id="result"> -->
+  </body>
+</body>
+</html>
