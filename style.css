@@ -8,6 +8,7 @@
 .navbar {
   display: flex;
   position: relative;
+  position:sticky;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(5, 73, 175);
@@ -102,7 +103,7 @@ main {
   background-color: rgb(169, 169, 253);
   display: flex;
   flex-direction: column;
-  margin: 5rem auto 8rem auto;
+  margin: 5rem auto 5rem auto;
   height:max-content;
   width: max-content;
   border-radius: 5px;
@@ -141,13 +142,28 @@ border: none;
     font-size: 1.3rem;
 
 }
+.github-div{
+  width: fit-content;
+   display: flex;
+   justify-content: flex-end;
+}
+.github-img{
+  filter: invert(70%);
+
+cursor: pointer;
+margin: .7rem;
+display: block;
+}
+.github-img:hover{
+  filter: invert(0%);
+}
 /* ********************Footer****************** */
 .foot-div-1 {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 3rem;
+  height: 4rem;
   background-color:  rgb(5, 73, 175);
   /* position: relative; */
   /* bottom: 0px; */
