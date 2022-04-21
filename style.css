@@ -5,10 +5,10 @@
   box-sizing: border-box;
   font-family: 'Nunito';
 }
+/* **********************************Navbar****************************** */
 .navbar {
   display: flex;
   position: relative;
-  position:sticky;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(5, 73, 175);
@@ -70,25 +70,25 @@
     flex-direction: column;
     align-items: flex-start;
   }
-
+  
   .toggle-button {
     display: flex;
   }
-
+  
   .navbar-links {
     display: none;
     width: 100%;
   }
-
+  
   .navbar-links ul {
     width: 100%;
     flex-direction: column;
   }
-
+  
   .navbar-links ul li {
     text-align: center;
   }
-
+  
   .navbar-links ul li a {
     padding: 0.5rem 1rem;
   }
@@ -97,9 +97,10 @@
     display: flex;
   }
 }
-
+/* **********************************Navbar****************************** */
+/* ********************************Main div************************** */
 main {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; 
   background-color: rgb(169, 169, 253);
   display: flex;
   flex-direction: column;
@@ -109,14 +110,14 @@ main {
   border-radius: 5px;
 }
 .input{
+  caret-color: blue;
   border: none;
   outline: none;
-    margin: 1rem;
-    padding: 1rem;
+  margin: 1rem;
+  padding: 1rem;
     border-radius: 8px;
 }
 .input:focus{
-  /* border: 1px solid blue; */
   outline: 1px solid blue
 }
 .btn{
@@ -130,33 +131,49 @@ border: none;
 .btn:hover{
     background-color: white;
     color: black;
-  outline: 2px solid blue;
-}
-.result-div{
+    outline: 2px solid blue;
+  }
+  .result-div{
     width: fit-content;
     height: fit-content;
     margin: .5rem auto;
-}
+  }
 .sol{
   height: 19rem;
-    font-size: 1.3rem;
-
+  font-size: 1.3rem;
+  
+}
+/* ********************************Main div************************** */
+/******* Links*** */
+.side-links{
+  height: max-content;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  /* border: 1px solid green; */
+  border-radius: 5px;
+  background-color: #ececec;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; 
 }
 .github-div{
-  width: fit-content;
-   display: flex;
-   justify-content: flex-end;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  /* border: 1px solid red; */
+  width:fit-content;
+  margin: .5rem;
 }
 .github-img{
-  filter: invert(70%);
-
 cursor: pointer;
 margin: .7rem;
-display: block;
+/* display: block; */
+opacity: 99%;
+filter: invert(40%);;
 }
 .github-img:hover{
-  filter: invert(0%);
+    opacity: 1;
+    filter: invert(0%);
 }
+/******* Links*** */
 /* ********************Footer****************** */
 .foot-div-1 {
   display: flex;
