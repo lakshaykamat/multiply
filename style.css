@@ -110,6 +110,7 @@ main {
   border-radius: 5px;
 }
 .input{
+  text-align: center;
   caret-color: blue;
   border: none;
   outline: none;
