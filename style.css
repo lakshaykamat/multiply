@@ -150,28 +150,28 @@ border: none;
   width: max-content;
   position: absolute;
   top: 50%;
-  /* border: 1px solid green; */
   border-radius: 5px;
-  background-color: #ececec;
+  background-color: #d5d0d0;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; 
 }
 .github-div{
   border-radius: 3px;
   background-color: #f0f0f0;
-  /* border: 1px solid red; */
   width:fit-content;
   margin: .5rem;
 }
 .github-img{
 cursor: pointer;
 margin: .7rem;
-/* display: block; */
-opacity: 99%;
-filter: invert(40%);;
+filter: saturate(55%);
 }
 .github-img:hover{
-    opacity: 1;
-    filter: invert(0%);
+  filter: saturate(100%);
+}
+@media (max-width: 800px) {
+  .side-links{
+    display: none;
+  }
 }
 /******* Links*** */
 /* ********************Footer****************** */
@@ -182,8 +182,6 @@ filter: invert(40%);;
   width: 100vw;
   height: 4rem;
   background-color:  rgb(5, 73, 175);
-  /* position: relative; */
-  /* bottom: 0px; */
 }
 .foot-txt {
   color: white;
@@ -192,8 +190,6 @@ filter: invert(40%);;
 .foot-div-2 {
   width: 100vw;
   height: 1rem;
-  /* position: absolute; */
-  /* bottom: 0px; */
   background-color: rgb(3, 3, 85);
 }
 /********************Footer****************** */
